@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="node_modules/jquery/dist/jquery.min.js">
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="eight.css">
+    </head>
+    
+    <body>
+    
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="slide1"></div>
+                    <div class="carousel-caption">
+                        <h1>Wonderful designs</h1>
+                        <p>You can find all the designs at one place</p>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="slide2"></div>
+                    <div class="carousel-caption">
+                        <h1>Enormous designs</h1>
+                        <p>If you want designs go nowhere but here</p>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="slide3"></div>
+                    <div class="carousel-caption">
+                        <h1>Lovely Backgrounds</h1>
+                        <p>This is the place to find it all</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            
+            <a class="right carousel-control" href="#theCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            
+        </div>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
+
+
+CSS file
+
+.slide1 {
+    background-image: url(bkgrnd1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.slide2 {
+    background-image: url(bkgrnd2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.slide3 {
+    background-image: url(bkgrnd3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.carousel-caption h1 {
+    font-family: 'Vivaldi', cursive;
+    font-size: 2.5em;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+}
